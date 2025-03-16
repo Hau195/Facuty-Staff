@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Faculty & Staff - CCSE</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="styles.css" rel="stylesheet">
+</head>
+
+
+<body>
+  <!-- Header and Navigation -->
+  <header class="bg-light py-3">
+    <div class="container-fluid">
+      <img src="images/ksu-logo.jpg" alt="KSU Logo" class="img-fluid" style="max-height: 60px;">
+
+      <div role="banner" class="banner is_left has_no_image">
+        <flex>
+            <img src="images/banner_bg.jpg" class="img-fluid" data-otherwise="true" alt="Faculty & Staff">
+        </flex>
+        <div class="banner_message">
+            <flex>
+                <h1 id="d48e93">Faculty & Staff</h1>
+            </flex>
+        </div>
+      </div>
+
+        <!-- Navigation Menu -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+            <div class="container">
+                <a class="navbar-brand text-white text-wrap" href="#">College of Computing and Software Engineering</a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link text-white" href="https://www.kennesaw.edu/ccse/about/index.php">About</a></li>
+                        <li class="nav-item"><a class="nav-link text-white" href="https://www.kennesaw.edu/ccse/resources/index.php">Resources</a></li>
+                        <li class="nav-item"><a class="nav-link text-white" href="https://www.kennesaw.edu/ccse/academics/index.php">Academics</a></li>
+                        <li class="nav-item"><a class="nav-link text-white" href="https://www.kennesaw.edu/ccse/degrees-programs/index.php">Degrees & Programs</a></li>
+                        <li class="nav-item"><a class="nav-link text-white" href="https://www.kennesaw.edu/ccse/partnerships/index.php">Partnerships</a></li>
+                        <li class="nav-item"><a class="nav-link text-white" href="https://www.kennesaw.edu/ccse/events/index.php">Events</a></li>
+                        <li class="nav-item"><a class="nav-link text-white" href="https://www.kennesaw.edu/ccse/alumni.php">Alumni</a></li>
+                        <li class="nav-item"><a class="nav-link text-white" href="https://www.kennesaw.edu/ccse/giving.php">Give</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+      </div>
+  </header>
+
+
+  <div class="container">
+    <div class="row ">
+      <!-- About Section -->
+      <div class="col-md-3" >
+        <!-- Accordion for Mobile Screens -->
+        <div class="accordion d-md-none" id="aboutAccordion">
+          <div class="accordion-item mb-4">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                ABOUT
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#aboutAccordion">
+              <div class="accordion-body">
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item"><a href="https://www.kennesaw.edu/ccse/about/index.php" >Home</a></li>
+                  <li class="list-group-item"><a href="https://www.kennesaw.edu/ccse/news/index.php" >News</a></li>
+                  <li class="list-group-item"><a href="https://www.kennesaw.edu/ccse/research/index.php" >Research</a></li>
+                  <li class="list-group-item"><a href="https://www.kennesaw.edu/ccse/about/executive-advisory-board.php" >Executive Advisory Board</a></li>
+                  <li class="list-group-item active"><a href="#"">Faculty & Staff</a></li>
+                  <li class="list-group-item"><a href="https://www.kennesaw.edu/ccse/about/jobs.php" >CCSE Job Openings</a></li>
+                  <li class="list-group-item"><a href="https://www.kennesaw.edu/ccse/about/contact-us.php" >Contact Us</a></li>
+                  <li class="list-group-item"><a href="https://www.kennesaw.edu/ccse/index.php" >CCSE Home</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Cards for Larger Screens -->
+        <div class="row d-none d-md-block mb-2">
+          <!-- About Links -->
+            <div class="card" id="aboutCard">
+              <h5 class="card-title" id="headingOne"  >ABOUT</h5>
+              <div class="card-body">
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item"><a href="https://www.kennesaw.edu/ccse/about/index.php">Home</a></li>
+                  <li class="list-group-item"><a href="https://www.kennesaw.edu/ccse/news/index.php">News</a></li>
+                  <li class="list-group-item"><a href="https://www.kennesaw.edu/ccse/research/index.php">Research</a></li>
+                  <li class="list-group-item"><a href="https://www.kennesaw.edu/ccse/about/executive-advisory-board.php">Executive Advisory Board</a></li>
+                  <li class="list-group-item active"><a href="#">Faculty & Staff</a></li>
+                  <li class="list-group-item"><a href="https://www.kennesaw.edu/ccse/about/jobs.php">CCSE Job Openings</a></li>
+                  <li class="list-group-item"><a href="https://www.kennesaw.edu/ccse/about/contact-us.php">Contact Us</a></li>
+                  <li class="list-group-item"><a href="https://www.kennesaw.edu/ccse/index.php">CCSE Home</a></li>
+                </ul>
+              </div>
+            </div>
+        </div>
+      </div>
+
+      <!-- Main Content -->
+      <div class="col-md-8">
+        <h2>Office of the Dean Faculty & Staff</h2>
+        <div class="row" id="faculty-staff-list">
+          <!-- Faculty/Staff cards -->
+
+          <!-- Sumanth Yenduri -->
+          <div class="col-md-6 col-xl-4 mb-4">
+            <div class="card h-100">
+              <div class="card-body text-center">
+                <img src="images/syenduri.jpg" alt="Sumanth Yenduri" class="card-img-circle mb-3">
+                <h5 class="card-title">Sumanth Yenduri</h5>
+                <p class="card-text">Dean of the College of Computing and Software Engineering and Professor of Software Engineering and Game Development</p>
+                <p class="card-text"><strong>Email:</strong> syenduri@kennesaw.edu</p>
+                <p class="card-text"><strong>Phone:</strong> (470) 578-5572</p>
+                <p class="card-text"><strong>Office:</strong> J 331</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Svetlana Peltsverger -->
+          <div class="col-md-6 col-xl-4 mb-4">
+            <div class="card h-100">
+              <div class="card-body text-center">
+                <img src="images/svetlana-peltsverger1.jpg" alt="Svetlana Peltsverger" class="card-img-circle mb-3">
+                <h5 class="card-title">Svetlana Peltsverger</h5>
+                <p class="card-text">Senior Associate Dean in the College of Computing and Software Engineering and Professor of Information Technology</p>
+                <p class="card-text"><strong>Email:</strong> speltsve@kennesaw.edu</p>
+                <p class="card-text"><strong>Phone:</strong> (470) 578-3813</p>
+                <p class="card-text"><strong>Office:</strong> J 378C</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Paola Spoletini -->
+          <div class="col-md-6 col-xl-4 mb-4">
+            <div class="card h-100">
+              <div class="card-body text-center">
+                <img src="images/paola-spoletini.jpg" alt="Paola Spoletini" class="card-img-circle mb-3">
+                <h5 class="card-title">Paola Spoletini</h5>
+                <p class="card-text">Associate Dean of Research in the College of Computing and Software Engineering and Professor of Software Engineering</p>
+                <p class="card-text"><strong>Email:</strong> pspoleti@kennesaw.edu</p>
+                <p class="card-text"><strong>Phone:</strong> (470) 578-3811</p>
+                <p class="card-text"><strong>Office:</strong> J 375</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Lei Li -->
+          <div class="col-md-6 col-xl-4 mb-4">
+            <div class="card h-100">
+              <div class="card-body text-center">
+                <img src="images/lei-li.jpg" alt="Lei Li" class="card-img-circle mb-3">
+                <h5 class="card-title">Lei Li</h5>
+                <p class="card-text">Associate Dean of Student Success in the College of Computing and Software Engineering and Professor of Information Technology</p>
+                <p class="card-text"><strong>Email:</strong> lli13@kennesaw.edu</p>
+                <p class="card-text"><strong>Phone:</strong> (470) 578-3915</p>
+                <p class="card-text"><strong>Office:</strong> J 393B</p>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Yiming Ji -->
+          <div class="col-md-6 col-xl-4 mb-4">
+            <div class="card h-100">
+              <div class="card-body text-center">
+                <img src="images/yiming-ji.jpg" alt="Yiming Ji" class="card-img-circle mb-3">
+                <h5 class="card-title">Yiming Ji</h5>
+                <p class="card-text">Associate Dean in the College of Computing and Software Engineering and Professor of Computer Science</p>
+                <p class="card-text"><strong>Email:</strong> <a href="mailto:yji9@kennesaw.edu">yji9@kennesaw.edu</a></p>
+                <p class="card-text"><strong>Phone:</strong> (470) 578-5558</p>
+                <p class="card-text"><strong>Office:</strong> J 353E</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Alla Kemelmakher -->
+          <div class="col-md-6 col-xl-4 mb-4">
+            <div class="card h-100">
+              <div class="card-body text-center">
+                <img src="images/alla-kemelmakher.png" alt="Alla Kemelmakher" class="card-img-circle mb-3">
+                <h5 class="card-title">Alla Kemelmakher</h5>
+                <p class="card-text">Director of CCSE Partnerships and Events</p>
+                <p class="card-text"><strong>Email:</strong> <a href="mailto:akemelma@kennesaw.edu">akemelma@kennesaw.edu</a></p>
+                <p class="card-text"><strong>Phone:</strong> (470) 578-5759</p>
+                <p class="card-text"><strong>Office:</strong> J 305D</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Alejandro Cambron -->
+          <div class="col-md-6 col-xl-4 mb-4">
+            <div class="card h-100">
+              <div class="card-body text-center">
+                <img src="images/alejandro-cambron.jpg" alt="Alejandro Cambron" class="card-img-circle mb-3">
+                <h5 class="card-title">Alejandro Cambron</h5>
+                <p class="card-text">Senior Business Operations Manager</p>
+                <p class="card-text"><strong>Email:</strong> <a href="mailto:acambro6@kennesaw.edu">acambro6@kennesaw.edu</a></p>
+                <p class="card-text"><strong>Phone:</strong> (470) 578-2727</p>
+                <p class="card-text"><strong>Office:</strong> J 330</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Melissa Lappe -->
+          <div class="col-md-6 col-xl-4 mb-4">
+            <div class="card h-100">
+              <div class="card-body text-center">
+                <img src="images/melissa-lappe.jpg" alt="Melissa Lappe" class="card-img-circle mb-3">
+                <h5 class="card-title">Melissa Lappe</h5>
+                <p class="card-text">Executive Administrative Assistant</p>
+                <p class="card-text"><strong>Email:</strong> <a href="mailto:mlappe@kennesaw.edu">mlappe@kennesaw.edu</a></p>
+                <p class="card-text"><strong>Phone:</strong> (470) 578-5572</p>
+                <p class="card-text"><strong>Office:</strong> J 331A</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Michael Alvarez -->
+          <div class="col-md-6 col-xl-4 mb-4">
+            <div class="card h-100">
+              <div class="card-body text-center">
+                <img src="images/michael-alvarez.jpg" alt="Michael Alvarez" class="card-img-circle mb-3">
+                <h5 class="card-title">Michael Alvarez</h5>
+                <p class="card-text">Program Coordinator, International Student Programs - CSE</p>
+                <p class="card-text"><strong>Email:</strong> <a href="mailto:malvare5@kennesaw.edu">malvare5@kennesaw.edu</a></p>
+                <p class="card-text"><strong>Phone:</strong> (470) 578-5302</p>
+                <p class="card-text"><strong>Office:</strong> R2 319</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Veronica Bramlett -->
+          <div class="col-md-6 col-xl-4 mb-4">
+            <div class="card h-100">
+              <div class="card-body text-center">
+                <img src="images/veronica-bramlett1.jpg" alt="Veronica Bramlett" class="card-img-circle mb-3">
+                <h5 class="card-title">Veronica Bramlett</h5>
+                <p class="card-text">Office Manager</p>
+                <p class="card-text"><strong>Email:</strong> <a href="mailto:vbramle1@kennesaw.edu">vbramle1@kennesaw.edu</a></p>
+                <p class="card-text"><strong>Phone:</strong> (470) 578-5572</p>
+                <p class="card-text"><strong>Office:</strong> J 330</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Christine Bryant -->
+          <div class="col-md-6 col-xl-4 mb-4">
+            <div class="card h-100">
+              <div class="card-body text-center">
+                <img src="images/christine-bryant.jpg" alt="Christine Bryant" class="card-img-circle mb-3">
+                <h5 class="card-title">Christine Bryant</h5>
+                <p class="card-text">Director, Computer Lab and Academic Support</p>
+                <p class="card-text"><strong>Email:</strong> <a href="mailto:cbryan78@kennesaw.edu">cbryan78@kennesaw.edu</a></p>
+                <p class="card-text"><strong>Phone:</strong> (470) 578-6653</p>
+                <p class="card-text"><strong>Office:</strong> J 261C</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Taylor Cuffie -->
+          <div class="col-md-6 col-xl-4 mb-4">
+            <div class="card h-100">
+              <div class="card-body text-center">
+                <img src="images/taylor-cuffie.png" alt="Taylor Cuffie" class="card-img-circle mb-3">
+                <h5 class="card-title">Taylor Cuffie</h5>
+                <p class="card-text">Academic Program Support Specialist</p>
+                <p class="card-text"><strong>Email:</strong> <a href="mailto:tcuffie1@kennesaw.edu">tcuffie1@kennesaw.edu</a></p>
+                <p class="card-text"><strong>Phone:</strong> (470) 578-5760</p>
+                <p class="card-text"><strong>Office:</strong> J 372</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Noralil Fores -->
+          <div class="col-md-6 col-xl-4 mb-4">
+            <div class="card h-100">
+              <div class="card-body text-center">
+                <img src="images/noralil-fores.jpg" alt="Noralil Fores" class="card-img-circle mb-3">
+                <h5 class="card-title">Noralil Fores</h5>
+                <p class="card-text">Communications and Outreach Manager</p>
+                <p class="card-text"><strong>Email:</strong> <a href="mailto:nfores@kennesaw.edu">nfores@kennesaw.edu</a></p>
+                <p class="card-text"><strong>Phone:</strong> (470) 578-6821</p>
+                <p class="card-text"><strong>Office:</strong> J 305D</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Josh Garske -->
+          <div class="col-md-6 col-xl-4 mb-4">
+            <div class="card h-100">
+              <div class="card-body text-center">
+                <img src="images/josh-garske.jpg" alt="Josh Garske" class="card-img-circle mb-3">
+                <h5 class="card-title">Josh Garske</h5>
+                <p class="card-text">Data Center Administrator</p>
+                <p class="card-text"><strong>Email:</strong> <a href="mailto:jgarske@kennesaw.edu">jgarske@kennesaw.edu</a></p>
+                <p class="card-text"><strong>Phone:</strong> (470) 578-3979</p>
+                <p class="card-text"><strong>Office:</strong> J 261B</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Martha Iglesias -->
+          <div class="col-md-6 col-xl-4 mb-4">
+            <div class="card h-100">
+              <div class="card-body text-center">
+                <img src="images/martha-iglesias.png" alt="Martha Iglesias" class="card-img-circle mb-3">
+                <h5 class="card-title">Martha Iglesias</h5>
+                <p class="card-text">Office Manager</p>
+                <p class="card-text"><strong>Email:</strong> <a href="mailto:miglesia@kennesaw.edu">miglesia@kennesaw.edu</a></p>
+                <p class="card-text"><strong>Phone:</strong> (470) 578-5572</p>
+                <p class="card-text"><strong>Office:</strong> J 330</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- William McKenna -->
+          <div class="col-md-6 col-xl-4 mb-4">
+            <div class="card h-100">
+              <div class="card-body text-center">
+                <img src="images/will-mckenna.jpg" alt="William McKenna" class="card-img-circle mb-3">
+                <h5 class="card-title">William McKenna</h5>
+                <p class="card-text">Director of Development, CCSE</p>
+                <p class="card-text"><strong>Email:</strong> <a href="mailto:wmckenna@kennesaw.edu">wmckenna@kennesaw.edu</a></p>
+                <p class="card-text"><strong>Phone:</strong> (470) 578-6533</p>
+                <p class="card-text"><strong>Office:</strong> TP 4582</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Ashley McClure -->
+          <div class="col-md-6 col-xl-4 mb-4">
+            <div class="card h-100">
+              <div class="card-body text-center">
+                <img src="images/ashley-mcclure.jpg" alt="Ashley McClure" class="card-img-circle mb-3">
+                <h5 class="card-title">Ashley McClure</h5>
+                <p class="card-text">Manager, Student Success</p>
+                <p class="card-text"><strong>Email:</strong> <a href="mailto:amcclur6@kennesaw.edu">amcclur6@kennesaw.edu</a></p>
+                <p class="card-text"><strong>Phone:</strong> (470) 578-6823</p>
+                <p class="card-text"><strong>Office:</strong> J 350</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Pablo Ordonez -->
+          <div class="col-md-6 col-xl-4 mb-4">
+            <div class="card h-100">
+              <div class="card-body text-center">
+                <img src="images/pablo-ordonez.jpg" alt="Pablo Ordonez" class="card-img-circle mb-3">
+                <h5 class="card-title">Pablo Ordonez</h5>
+                <p class="card-text">Machine Learning Architect</p>
+                <p class="card-text"><strong>Email:</strong> <a href="mailto:pordonez@kennesaw.edu">pordonez@kennesaw.edu</a></p>
+                <p class="card-text"><strong>Phone:</strong> (470) 578-2708</p>
+                <p class="card-text"><strong>Office:</strong> J 127</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Kathy Roddy -->
+          <div class="col-md-6 col-xl-4 mb-4">
+            <div class="card h-100">
+              <div class="card-body text-center">
+                <img src="images/photo-placeholder.jpg" alt="Kathy Roddy" class="card-img-circle mb-3">
+                <h5 class="card-title">Kathy Roddy</h5>
+                <p class="card-text">Office Manager</p>
+                <p class="card-text"><strong>Email:</strong> <a href="mailto:kroddy1@kennesaw.edu">kroddy1@kennesaw.edu</a></p>
+                <p class="card-text"><strong>Phone:</strong> (470) 578-3713</p>
+                <p class="card-text"><strong>Office:</strong> J 393A</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Buttons Section -->
+  <div class="container mt-4">
+    <div class="row">
+      <div class="col-12 text-center">
+        <a href="https://www.example.com" class="btn btn-info btn-lg">Leadership and Staff Organization Chart</a>
+        <a href="https://www.example.com" class="btn btn-info btn-lg">Departments Organization Chart</a>
+      </div>
+    </div>
+</div>
+
+  <!-- Associate Dean Portfolios Section -->
+  <div class="container mb-4 mt-5">
+    <h2 class="text-center mb-4">Associate Dean Portfolios</h2>
+
+    <!-- Senior Associate Dean -->
+    <div class="accordion" id="accordionAssociateDean">
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+            Senior Associate Dean (Strategy and Operations): Svetlana Peltsverger
+          </button>
+        </h2>
+        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+          <div class="accordion-body">
+            <ul>
+              <li>Management of the day-to-day college operations and compliance.</li>
+              <li>Monitoring scheduling and operational efficiency.</li>
+              <li>Collection, analysis, and maintenance of college/unit/program faculty and course data.</li>
+              <li>College curriculum lead.</li>
+              <li>Shared governance processes and development of operational policies and procedures.</li>
+              <li>All initiatives and events not covered by other associate deans (C-Day, college meetings, etc.).</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Associate Dean -->
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+            Associate Dean (Faculty Development and Assessment): Yiming Ji
+          </button>
+        </h2>
+        <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+          <div class="accordion-body">
+            <ul>
+              <li>Promotion and oversight of professional development opportunities for faculty and staff, including grant writing support.</li>
+              <li>Mentorship of faculty in grant proposal development and submission.</li>
+              <li>Oversight of graduate student support, including assistantships, and initiatives to enhance doctoral student success.</li>
+              <li>Program assessment and continuous improvement efforts, including ABET accreditation and assurance of learning processes starting from the next ABET cycle.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Associate Dean -->
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+            Associate Dean (Student Success): Lei Li
+          </button>
+        </h2>
+        <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+          <div class="accordion-body">
+            <ul>
+              <li>Accreditation and assessment activities (ABET, Assurance of Learning, QEP, IAE) - (the responsibility will be transferred to Associate Dean of Faculty Development and Assessment after fall 2025).</li>
+              <li>Lead for student support services (Strategic Advising Council Rep, supervision of advising director and tutoring center, organizing focus events, academic appeals, academic renewal, disciplinary sanctions, and academic integrity).</li>
+              <li>Enrollment management of undergraduate and graduate programs.</li>
+              <li>Oversight of initiatives and activities related to orientation, progression, retention, and graduation of graduate and undergraduate students.</li>
+              <li>Coordination of all student engagement initiatives and activities.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    
+
+      <!-- Associate Dean -->
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
+            Associate Dean (Research): Paola Spoletini
+          </button>
+        </h2>
+        <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse">
+          <div class="accordion-body">
+            <ul>
+              <li>Research Administration: Oversee research compliance, Cayuse review, budgeting, research-related resources (e.g., space, GRAs), and alignment with university policies.</li>
+              <li>Collaboration & Funding Engagement: Cultivate multidisciplinary research activities, connect with local and national funding agencies, and serve as the College’s liaison with the Office of the Vice President for Research.</li>
+              <li>Research Planning & Reporting: Manage sponsored and non-sponsored research programs, maintain records, and prepare reports as required by the College and University.</li>
+              <li>Research Community Building & Industry Engagement: Promote inclusive excellence, organize research-related events (e.g., speaker series, showcases), and foster industry relationships.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer d-none d-md-block bg-dark text-light py-5">
+    <div class="container">
+      <div class="row">
+
+      <!-- Kennesaw Campus -->
+      <div class="col-md-3 mb-6">
+        <h5><b>Kennesaw Campus</b></h5>
+        <p>
+          1000 Chastain Road<br>
+          Kennesaw, GA 30144
+        </p>
+
+        <!-- Marietta Campus -->
+        <h5><b>Marietta Campus</b></h5>
+        <p>
+          1100 South Marietta Pkwy<br>
+          Marietta, GA 30060
+        </p>
+
+        <!-- Campus Maps -->
+        <h5>
+          <b><a href="#" class="text-decoration-none">Campus Maps</a></b>
+        </h5>
+      </div>
+
+        
+      <div class="col-md-3 mb-6">
+        <!-- Phone -->
+        <h5><b>Phone</b></h5>
+        <p>
+          470-KSU-INFO<br>
+          (470-578-4636)
+        </p>
+      
+        <!-- Website -->
+        <h6>
+          <b><a href="https://kennesaw.edu/info" class="text-decoration-none">kennesaw.edu/info</a></b>
+        <h6>
+
+        <!-- Media Resources -->
+        <h6>
+          <b><a href="https://www.kennesaw.edu/news/media-resources.php" class="text-decoration-none">Media Resources</a></b>
+        </h6>
+      </div>
+        
+
+        <!-- Resources For -->
+        <div class="col-md-3 mb-4">
+          <h5><b>Resources For</b></h5>
+          <ul class="list-unstyled">
+            <li><a href="#" class="text-light">Current Students</a></li>
+            <li><a href="#" class="text-light">Online Only Students</a></li>
+            <li><a href="#" class="text-light">Faculty & Staff</a></li>
+            <li><a href="#" class="text-light">Parents & Family</a></li>
+            <li><a href="#" class="text-light">Alumni & Friends</a></li>
+            <li><a href="#" class="text-light">Community & Business</a></li>
+          </ul>
+        </div>
+
+        <!-- Related Links -->
+        <div class="col-md-3 mb-4">
+          <h5><b>Related Links</b></h5>
+          <ul class="list-unstyled">
+            <li><a href="#" class="text-light">Libraries</a></li>
+            <li><a href="#" class="text-light">Housing</a></li>
+            <li><a href="#" class="text-light">Financial Aid</a></li>
+            <li><a href="#" class="text-light">Degrees, Majors & Programs</a></li>
+            <li><a href="#" class="text-light">Registrar</a></li>
+            <li><a href="#" class="text-light">Job Opportunities</a></li>
+            <li><a href="#" class="text-light">Campus Security</a></li>
+            <li><a href="#" class="text-light">Global Education</a></li>
+            <li><a href="#" class="text-light">Sustainability</a></li>
+            <li><a href="#" class="text-light">Accessibility</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Copyright and Legal Links -->
+  <div class="row mt-4">
+    <div class="col-12 text-center">
+      <p class="mb-2">© 2025 Kennesaw State University. All Rights Reserved.</p>
+      <p class="mb-0">
+        <a href="#" class="text-dark">Privacy Statement</a> | 
+        <a href="#" class="text-dark">Accreditation</a> | 
+        <a href="#" class="text-dark">Emergency Information</a> | 
+        <a href="#" class="text-dark">Report a Concern</a> | 
+        <a href="#" class="text-dark">Feedback</a> | 
+        <a href="#" class="text-dark">Open Records</a> | 
+        <a href="#" class="text-dark">Human Trafficking Notice</a> | 
+        <a href="#" class="text-dark">Text Only</a>
+      </p>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
