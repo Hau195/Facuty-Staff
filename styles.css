@@ -116,7 +116,7 @@ footer ul li {
   background: gold;
 }
 
-.btn{
+.btn-info{
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -142,4 +142,24 @@ footer ul li {
   letter-spacing: 2px;
   border: none;
   min-height: auto !important;
+}
+
+
+.menu-button {
+  background-color: #FFC72C; /* Yellow background */
+  padding: 10px 15px;
+  font-weight: bold;
+}
+
+
+
+.nav-links {
+  background-color: #f8f9fa; /* Light gray background for nav links row */
+  padding: 10px 0;
+}
+
+#main_navigation_link {
+  gap: 20px; /* Spacing between links */
+  justify-content: center; /* Center-align links */
+  flex-wrap: wrap;
 }
